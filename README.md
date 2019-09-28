@@ -12,7 +12,7 @@
     ./run.sh joelkattapuram@berkeley.edu 100
 
 
-### Methodology:
+### Methodology/Implementation:
     
 I first built a frequency map of all characters based on word length. For example, a word of length 1 is most likely to contain characters 'a' or 'i' so those two characters are mapped to that value. This is sufficient to perform relatively decently in the hangman challenge, however, it fails to be optimal since it simply guesses the most common letters. 
 
